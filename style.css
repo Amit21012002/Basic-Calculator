@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+    margin: 0;
+    gap: 50px;
+    background-image: url('https://c8.alamy.com/comp/HGCPPN/business-concept-calculator-on-paper-background-with-business-chart-HGCPPN.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.banner{
+    background-color: brown;
+width: 100%;
+text-align: center;
+opacity: 0.7;
+}
+
+.banner-text{
+    color: #fff;
+    text-decoration: underline;
+}
+
+#calculator{
+
+    display: grid;
+   
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 300px;
+    gap: 15px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 10px grey);
+   margin-left: 50%;
+   
+    
+}
+
+#display{
+    grid-column: span 4;
+    height:50px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+font-size: 24px;
+    padding: 0 10px;
+}
+
+button{
+    height: 50px;
+    font-size: 24px;
+   
+   
+}
+
+button:active{
+    box-shadow: 0 0 5px cyan ,0 0 10px cyan ;
+    background-color: cyan;
+    color: white;
+    border: none;
+}
